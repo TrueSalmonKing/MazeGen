@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="clean" name="Genetic algorithm - String generation">
+	<target name="clean" depends="jar">
+		<move file="bin\Icon.png" todir="resources"/>
+		<delete includeemptydirs="true">
+			<fileset dir="bin">
+			</fileset>
+		</delete>
+	</target>
+		
+	<target name="jar" depends="compile">
+		<jar destfile="MazeGen.jar" basedir = "bin" includes = "com/assets/*.class,com/algorithms/*.class,com/UI/*.class, Icon.png">
+			<manifest>
+				<attribute name="Main-Class" value="com/UI/Window"/>
+			</manifest>
+		</jar>
+	</target>
+	
+	<target name="compile">
+		<mkdir dir="bin"/>
+		<javac includeantruntime="false" srcdir="src" destdir="bin"/>
+		<move file="resources\Icon.png" todir="bin"/>
+	</target>
+</project>
