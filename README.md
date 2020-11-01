@@ -5,7 +5,7 @@ When solving a maze, we first read the image containing the maze (granted it adh
 
 ## Build
 
-To build the application it suffices to run the batch script build.bat, it will handle the compilation process and adequate resources managment.
+To build the application it suffices to run the batch script build.bat and it will handle the compilation process and adequate resources managment.
 
 ## Getting started
 
