@@ -41,9 +41,9 @@ The node list is treated and we return a list of nodes with the exit node as a h
 ### Prerequisites
 
 #### In order to rebuild
-Java Developpment Kit - JDK(https://www.oracle.com/java/technologies/javase-downloads.html)
+Java Developpment Kit - [JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
 #### In order to run the prebuilt jar file(built using javac 12.0.2)
-Java Run Environment - JRE(https://www.java.com/en/download/)
+Java Run Environment - [JRE](https://www.java.com/en/download/)
 
 ## Written With
 
