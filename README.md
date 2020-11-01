@@ -6,6 +6,7 @@ When solving a maze, we first read the image containing the maze (granted it adh
 ## Build
 
 To build the application it suffices to run the batch script build.bat and it will handle the compilation process and adequate resources managment.
+If, however, the application build was to be done through the build.xml file, you can do that easily through running the antbuild.bat script, it is to be noted, however obvious it is, this build method requires ant, which can be found in the prerequisites section below. 
 
 ## Getting started
 
@@ -42,6 +43,7 @@ The node list is treated and we return a list of nodes with the exit node as a h
 
 #### In order to rebuild
 Java Developpment Kit - [JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
+Apache Ant : [Repository](https://github.com/apache/ant)
 #### In order to run the prebuilt jar file(built using javac 12.0.2)
 Java Run Environment - [JRE](https://www.java.com/en/download/)
 
