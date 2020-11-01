@@ -3,6 +3,10 @@ A java gui application that allows for creation and solving for mazes.
 We create the mazes through a user choice of either prim's randomized algorithm, or a recursive backtracker approach, and we finally save the maze in a png image file.
 When solving a maze, we first read the image containing the maze (granted it adheres to the rules of the software listed below), using djikstra's algorithm, we solve the maze through 3 basic steps listed in the process of execution section
 
+## Build
+
+To build the application it suffices to run the batch script build.bat, it will handle the compilation process and adequate resources managment.
+
 ## Getting started
 
 To run this program optimally, it is necessary to note that the image to be used must adhere to appropriate format of which is an image representing a maze made out of 1 pixel black blocks, a sample image is provided along with the software.
@@ -36,9 +40,12 @@ The node list is treated and we return a list of nodes with the exit node as a h
 
 ### Prerequisites
 
-JDK 8.0
+#### In order to rebuild
+Java Developpment Kit - JDK(https://www.oracle.com/java/technologies/javase-downloads.html)
+#### In order to run the prebuilt jar file(built using javac 12.0.2)
+Java Run Environment - JRE(https://www.java.com/en/download/)
 
-## Built With
+## Written With
 
 * [Eclipse](https://www.eclipse.org/documentation/) - The java IDE used.
 
