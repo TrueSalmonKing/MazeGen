@@ -16,4 +16,3 @@ move Icon.png ..\resources
 cd ..
 rmdir /Q /S bin
 echo Build finished !
-pause
